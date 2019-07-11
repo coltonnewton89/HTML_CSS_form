@@ -37,11 +37,12 @@ nav > a {
   background: transparent;
   padding: 20px; 
   text-align: center;
+  border: 2px solid rgb(129, 137, 250);
 }
 
 .has-border {
   border-radius: 25px;
-  border: 2px solid rgb(156, 157, 158);
+  border: 2px solid rgb(93, 172, 252);
   background: none;
   padding: 20px;
 }
@@ -77,7 +78,7 @@ h2 {
 .small-text {
   grid-column: 2/3;
   color: white;
-  font-size: 10px;
+  font-size: 15px;
   margin: 3% auto;
 }
 
