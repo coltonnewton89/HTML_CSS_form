@@ -1,0 +1,36 @@
+menu {
+    background-color: dimgrey;
+}
+
+body{
+    background-color: rgb(156, 157, 158)
+}
+
+article{
+    background-color: white;
+    width: 300px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+article:hover { 
+    background-color: rgb(35, 50, 250);
+    transform: scale(1.2);
+  }
+
+  h2{
+    font-family: "Times New Roman", Times, serif;
+  }
+
+  small{
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+  }
+
+  p{
+      font-family: Arial, Helvetica, sans-serif,
+  }
+
+  
+  
+
