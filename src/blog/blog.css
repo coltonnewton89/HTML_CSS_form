@@ -31,6 +31,11 @@ article:hover {
       font-family: Arial, Helvetica, sans-serif,
   }
 
+  p:hover:first-letter { 
+    font-size: 200%;
+    color: rgb(12, 216, 243) !important;
+  }
+
   
   
 
