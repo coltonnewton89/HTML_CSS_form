@@ -1,0 +1,350 @@
+#bg {
+    position: fixed;
+}
+
+#center{
+    margin-left: 31%;
+}
+
+#blank{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 25% 25% 25% 25%;
+    background-color: rgb(2, 109, 50);
+    height: 426px;
+    width: 426px;
+}
+
+#clock{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    height: 426px;
+    width: 426px;
+    background-image: url(./dashboardpics/clockbg.jpg)
+}
+
+#calc{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+    grid-column-gap: 10px;
+    grid-row-gap: 12px;
+    height: 426px;
+    width: 426px;
+    background-image: url(./dashboardpics/calcbg.jpg)
+}
+
+#todo{
+    display: grid;
+    grid-template-columns:auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+    height: 426px;
+    width: 426px;
+    background-image: url(./dashboardpics/todo.jpg)
+}
+
+#resources{
+    display: grid;
+    grid-template-columns:auto auto auto auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto auto auto;
+    grid-column-gap: 2px;
+    grid-row-gap: 10px;
+    height: 426px;
+    width: 426px;
+    background-image: url(./dashboardpics/resourcebg.jpg)
+}
+
+#welcome{
+    grid-area: 2/2/4/5;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    font-size: 50px;
+    color: white;
+}
+
+#firsticon{
+    grid-area: 3/1/4/2;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    color: white;
+}
+
+#secicon{
+    grid-area: 3/2/4/3;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    color: white;
+}
+
+#thirdicon{
+    grid-area: 3/3/4/4;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    color: white;
+}
+
+#fourthicon{
+    grid-area: 3/4/4/5;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    color: white;
+}
+
+#fifthicon{
+    grid-area: 3/5/4/6;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    color: white;
+}
+
+#b1{
+    grid-row-end:16;
+    grid-row-start:12; 
+    grid-column-end:9;
+    grid-column-start: 8;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10px;
+    color: white;
+}
+
+#b2{
+    grid-row-end:16;
+    grid-row-start:12;
+    grid-column-end:17;
+    grid-column-start: 15;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10px;
+    color: white;
+}
+
+#b3{
+    grid-row-end:16;
+    grid-row-start:12;
+    grid-column-end:24;
+    grid-column-start: 23;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10px;
+    color: white;
+}
+
+#b4{
+    grid-row-end:21;
+    grid-row-start:18;
+    grid-column-end:9;
+    grid-column-start: 8;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10px;
+    color: white;
+}
+
+#b5{
+    grid-row-end:21;
+    grid-row-start:18;
+    grid-column-end:17;
+    grid-column-start:15;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10px;
+    color: white;
+}
+
+#b6{
+    grid-row-end:21;
+    grid-row-start:18;
+    grid-column-end:24;
+    grid-column-start:23;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10px;
+    color: white;
+}
+
+#b7{
+    grid-row-end:26;
+    grid-row-start:23;
+    grid-column-end:9;
+    grid-column-start:8;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10px;
+    color: white;
+}
+
+#b8{
+    grid-row-end:26;
+    grid-row-start:23;
+    grid-column-end:17;
+    grid-column-start:15;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10px;
+    color: white;
+}
+
+#b9{
+    grid-row-end:26;
+    grid-row-start:23;
+    grid-column-end:24;
+    grid-column-start:23;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10px;
+    color: white;
+}
+
+#b0{
+    grid-row-end:32;
+    grid-row-start:24;
+    grid-column-end:9;
+    grid-column-start:8;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10px;
+    color: white;
+}
+
+#bpl{
+    grid-row-start:24;
+    grid-column-end:24;
+    grid-column-start:23;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10px;
+    color: white;
+}
+
+#bmn{
+    grid-row-start:28;
+    grid-column-end:31;
+    grid-column-start:30;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10px;
+    color: white;
+}
+
+#bdv{
+    grid-row-end:21;
+    grid-row-start:18;
+    grid-column-end:31;
+    grid-column-start:30;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10px;
+    color: white;
+}
+
+#bx{
+    grid-row-end:16;
+    grid-row-start:12;
+    grid-column-end:31;
+    grid-column-start:30;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10px;
+    color: white;
+}
+
+#beq{
+    grid-area: 26/31/28/36;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10px;
+    color: white;
+}
+
+#td1{
+    grid-row-end: 4;
+    grid-column-start:2;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10px;
+    color: gray;
+    
+}
+#td2{
+    grid-row-start: 4;
+    grid-column-start:2;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10px;
+    color: gray;
+}
+#td3{
+    grid-row-end: 6;
+    grid-column-start:2;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10px;
+    color: gray;
+}
+#td4{
+    grid-row-start: 6;
+    grid-column-start:2;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10px;
+    color: gray;
+}
+#td5{
+    grid-row-end:8;
+    grid-column-start:2;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10px;
+    color: gray;
+}
+#td6{
+    grid-row-start:8;
+    grid-column-start:2;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10px;
+    color: gray;
+}
+#td7{
+    grid-row-end:10;
+    grid-column-start:2;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10px;
+    color: gray;
+}
+#td8{
+    grid-row-start:10;
+    grid-column-start:2;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10px;
+    color: gray;
+}
+#td9{
+    grid-row-end:12;
+    grid-column-start:2;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10px;
+    color: gray;
+}
+
+#rs1{
+    grid-column-start: 1;
+    grid-row-start: 2;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:  15px;
+    color: rgb(255, 157, 29);
+}
+#rs2{
+    grid-column-start: 1;
+    grid-row-start: 3;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:  15px;
+    color: rgb(255, 157, 29);
+}#rs3{
+    grid-column-start: 1;
+    grid-row-start: 4;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:  15px;
+    color: rgb(255, 157, 29);
+}#rs4{
+    grid-column-start: 1;
+    grid-row-start: 5;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:  15px;
+    color: rgb(255, 157, 29);
+}#rs5{
+    grid-column-start: 1;
+    grid-row-start: 6;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:  15px;
+    color: rgb(255, 157, 29);
+}#rs6{
+    grid-column-start: 1;
+    grid-row-start: 7;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:  15px;
+    color: rgb(255, 157, 29);
+}
+
+
+
+
