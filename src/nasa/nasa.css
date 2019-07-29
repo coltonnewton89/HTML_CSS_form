@@ -1,0 +1,63 @@
+#head{
+    background-image: url(./nasapics/nasabg.jpg);
+    width:850px;
+    height: 450px;
+    text-align: center;
+}
+
+#sup{    
+    position: absolute;
+    top: 35%;
+    left: 32%;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+}
+
+#line{
+    width: 850px;
+    height: 15px;
+    background-color: white;
+
+}
+
+#forum{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 850px;
+    height: 324px;
+    background-color: rgb(167, 167, 167)
+}
+
+h2{
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: black;
+    }
+
+li{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: black;
+}
+
+#art1{
+    width: auto;
+    background-color: rgb(167, 167, 167);
+    grid-column-start: 1;
+}
+
+#art2{
+    width: auto;
+    background-color: rgb(167, 167, 167);
+    grid-column-start: 2;
+}
+
+#art3{
+    width: auto;
+    background-color: rgb(167, 167, 167);
+    grid-column-start: 3;
+}
+
+
