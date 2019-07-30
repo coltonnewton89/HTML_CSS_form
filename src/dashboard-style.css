@@ -24,16 +24,9 @@
     background-image: url(./dashboardpics/clockbg.jpg)
 }
 
-#calc{
-    display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
-    grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
-    grid-column-gap: 10px;
-    grid-row-gap: 12px;
-    height: 426px;
-    width: 426px;
-    background-image: url(./dashboardpics/calcbg.jpg)
-}
+
+
+
 
 #todo{
     display: grid;
@@ -96,150 +89,7 @@
     color: white;
 }
 
-#b1{
-    grid-row-end:16;
-    grid-row-start:12; 
-    grid-column-end:9;
-    grid-column-start: 8;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 10px;
-    color: white;
-}
 
-#b2{
-    grid-row-end:16;
-    grid-row-start:12;
-    grid-column-end:17;
-    grid-column-start: 15;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 10px;
-    color: white;
-}
-
-#b3{
-    grid-row-end:16;
-    grid-row-start:12;
-    grid-column-end:24;
-    grid-column-start: 23;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 10px;
-    color: white;
-}
-
-#b4{
-    grid-row-end:21;
-    grid-row-start:18;
-    grid-column-end:9;
-    grid-column-start: 8;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 10px;
-    color: white;
-}
-
-#b5{
-    grid-row-end:21;
-    grid-row-start:18;
-    grid-column-end:17;
-    grid-column-start:15;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 10px;
-    color: white;
-}
-
-#b6{
-    grid-row-end:21;
-    grid-row-start:18;
-    grid-column-end:24;
-    grid-column-start:23;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 10px;
-    color: white;
-}
-
-#b7{
-    grid-row-end:26;
-    grid-row-start:23;
-    grid-column-end:9;
-    grid-column-start:8;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 10px;
-    color: white;
-}
-
-#b8{
-    grid-row-end:26;
-    grid-row-start:23;
-    grid-column-end:17;
-    grid-column-start:15;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 10px;
-    color: white;
-}
-
-#b9{
-    grid-row-end:26;
-    grid-row-start:23;
-    grid-column-end:24;
-    grid-column-start:23;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 10px;
-    color: white;
-}
-
-#b0{
-    grid-row-end:32;
-    grid-row-start:24;
-    grid-column-end:9;
-    grid-column-start:8;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 10px;
-    color: white;
-}
-
-#bpl{
-    grid-row-start:24;
-    grid-column-end:24;
-    grid-column-start:23;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 10px;
-    color: white;
-}
-
-#bmn{
-    grid-row-start:28;
-    grid-column-end:31;
-    grid-column-start:30;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 10px;
-    color: white;
-}
-
-#bdv{
-    grid-row-end:21;
-    grid-row-start:18;
-    grid-column-end:31;
-    grid-column-start:30;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 10px;
-    color: white;
-}
-
-#bx{
-    grid-row-end:16;
-    grid-row-start:12;
-    grid-column-end:31;
-    grid-column-start:30;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 10px;
-    color: white;
-}
-
-#beq{
-    grid-area: 26/31/28/36;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 10px;
-    color: white;
-}
 
 #td1{
     grid-row-end: 4;
