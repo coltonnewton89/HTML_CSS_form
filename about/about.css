@@ -1,108 +1,160 @@
-.classy3 {
-  height: 2500px;
-  width: auto;
-  background-image: url(../about/abtpics/bsmoke.jpeg);
+@media (min-width: 550px) {
+  .classy3 {
+    height: 2500px;
+    width: auto;
+    background-image: url(../about/abtpics/bsmoke.jpeg);
+  }
+
+  .classy1 {
+    display: grid;
+    grid-template-columns: 25%, 25%, 25%, 25%;
+    grid-template-rows: 25%, 25%, 25%, 25%;
+    height: 2500px;
+    width: auto;
+    background-image: url(../about/abtpics/gsmoke.jpeg);
+  }
+
+  .classy2 {
+    display: grid;
+    grid-template-columns: 25%, 25%, 25%, 25%;
+    grid-template-rows: 25%, 25%, 25%, 25%;
+    height: 2500px;
+    width: auto;
+    background-image: url(../about/abtpics/rsmoke.jpeg);
+  }
+
+  #medq {
+    display: none;
+  }
+
+  nav {
+    margin-left: 5px;
+    text-align: center;
+    background-image: url(../about/abtpics/navpic.jpg);
+    position: sticky;
+    top: 0;
+    height: 40px;
+  }
+
+  #gr1 {
+    background-color: rgb(17, 245, 17);
+    font-family: "Lexend Zetta", sans-serif;
+    color: rgb(251, 252, 244);
+    height: 30px;
+  }
+
+  #re1 {
+    background-color: red;
+    font-family: "Lexend Zetta", sans-serif;
+    color: rgb(251, 252, 244);
+    height: 30px;
+  }
+
+  #bl1 {
+    background-color: blue;
+    font-family: "Lexend Zetta", sans-serif;
+    color: rgb(251, 252, 244);
+    height: 30px;
+  }
+
+  .hg1 {
+    grid-column-start: 4;
+    grid-row-start: 3;
+    background-color: antiquewhite;
+    font-size: 45px;
+    font-family: "Lato", sans-serif;
+    color: blue;
+  }
+
+  .hr1 {
+    grid-column-start: 15;
+    grid-row-start: 4;
+    font-size: 45px;
+    font-family: "Lato", sans-serif;
+    color: red;
+  }
+
+  .p2 {
+    font-size: 25px;
+    font-family: "Lato", sans-serif;
+    color: red;
+  }
+
+  #container1 {
+    background-color: antiquewhite;
+    border: 5px;
+    border-color: green;
+    grid-column-start: 1;
+    grid-row-start: 1;
+  }
+
+  #container2 {
+    background-color: antiquewhite;
+    border: 5px;
+    border-color: green;
+    grid-column-start: 3;
+    grid-row-start: 3;
+  }
+
+  #container3 {
+    background-color: antiquewhite;
+    border: 5px;
+    border-color: red;
+    grid-column-start: 3;
+    grid-row-start: 1;
+  }
+
+  #container4 {
+    background-color: antiquewhite;
+    border: 5px;
+    border-color: red;
+    grid-column-start: 1;
+    grid-row-start: 3;
+  }
 }
 
-.classy1 {
-  display: grid;
-  grid-template-columns: 25%, 25%, 25%, 25%;
-  grid-template-rows: 25%, 25%, 25%, 25%;
-  height: 2500px;
-  width: auto;
-  background-image: url(../about/abtpics/gsmoke.jpeg);
-}
+@media (max-width: 549px) {
+  #vid {
+    width: 300px;
+  }
+  nav {
+    display: none;
+  }
 
-.classy2 {
-  display: grid;
-  grid-template-columns: 25%, 25%, 25%, 25%;
-  grid-template-rows: 25%, 25%, 25%, 25%;
-  height: 2500px;
-  width: auto;
-  background-image: url(../about/abtpics/rsmoke.jpeg);
-}
-
-nav {
-  margin-left: 5px;
-  text-align: center;
-  background-image: url(../about/abtpics/navpic.jpg);
-  position: sticky;
-  top: 0;
-  height: 40px;
-}
-
-#gr1 {
-  background-color: rgb(17, 245, 17);
-  font-family: "Lexend Zetta", sans-serif;
-  color: rgb(251, 252, 244);
-  height: 30px;
-}
-
-#re1 {
-  background-color: red;
-  font-family: "Lexend Zetta", sans-serif;
-  color: rgb(251, 252, 244);
-  height: 30px;
-}
-
-#bl1 {
-  background-color: blue;
-  font-family: "Lexend Zetta", sans-serif;
-  color: rgb(251, 252, 244);
-  height: 30px;
-}
-
-.hg1 {
-  grid-column-start: 4;
-  grid-row-start: 3;
-  background-color: antiquewhite;
-  font-size: 45px;
-  font-family: "Lato", sans-serif;
-  color: blue;
-}
-
-.hr1 {
-  grid-column-start: 15;
-  grid-row-start: 4;
-  font-size: 45px;
-  font-family: "Lato", sans-serif;
-  color: red;
-}
-
-.p2 {
-  font-size: 25px;
-  font-family: "Lato", sans-serif;
-  color: red;
-}
-
-#container1 {
-  background-color: antiquewhite;
-  border: 5px;
-  border-color: green;
-  grid-column-start: 1;
-  grid-row-start: 1;
-}
-
-#container2 {
-  background-color: antiquewhite;
-  border: 5px;
-  border-color: green;
-  grid-column-start: 3;
-  grid-row-start: 3;
-}
-
-#container3 {
-  background-color: antiquewhite;
-  border: 5px;
-  border-color: red;
-  grid-column-start: 3;
-  grid-row-start: 1;
-}
-
-#container4 {
-  background-color: antiquewhite;
-  border: 5px;
-  border-color: red;
-  grid-column-start: 1;
-  grid-row-start: 3;
+  #b41 {
+    height: 15px;
+    background-color: blue;
+    color: whitesmoke;
+  }
+  #g41 {
+    height: 15px;
+    background-color: green;
+    color: whitesmoke;
+  }
+  #r41 {
+    height: 15px;
+    background-color: red;
+    color: whitesmoke;
+  }
+  b42 {
+    height: 15px;
+    background-color: rgb(122, 145, 247);
+    color: whitesmoke;
+  }
+  #container1 {
+    background-color: rgb(122, 145, 247);
+    color: white;
+  }
+  #container2 {
+    background-color: rgb(146, 255, 146);
+    color: white;
+  }
+  #container3 {
+    background-color: rgb(255, 93, 93);
+    color: white;
+  }
+  #container4 {
+    background-color: rgb(122, 145, 247);
+    color: white;
+  }
 }

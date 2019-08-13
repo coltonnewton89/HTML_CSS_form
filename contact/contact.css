@@ -1,0 +1,112 @@
+nav {
+  background-color: rgba(153, 153, 153, 0.5);
+  color: white;
+  position: sticky;
+  text-align: right;
+  top: 0;
+  margin-right: 30px;
+  font-size: 30px;
+  height: 40px;
+  width: auto;
+}
+header {
+  position: static;
+  background-image: url(../contact/contactimgs/headerbg.jpg);
+  width: auto;
+  height: 300px;
+  grid-area: header;
+}
+
+main {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-areas:
+    "header header header header"
+    "n1 n1 n2 n2"
+    "n3 n3 n3 n3";
+  background-color: rgb(3, 5, 139);
+  height: 800px;
+  width: 1040px;
+  text-align: center;
+}
+
+.h1 {
+  color: rgba(255, 255, 255, 0.959);
+  font-size: 40px;
+  font-family: "Beth Ellen", cursive;
+}
+
+.h2 {
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.959);
+  font-family: "Abel", sans-serif;
+}
+
+.n1 {
+  content: inherit;
+  border: white;
+  border-width: 5px;
+  border-radius: 13%;
+  background-color: aqua;
+  grid-area: n1;
+}
+
+.c11 {
+  color: white;
+  font-size: 20px;
+  font-family: "Beth Ellen", cursive;
+}
+
+.c12 {
+  color: white;
+  font-size: 15px;
+  font-family: "Abel", sans-serif;
+}
+
+.n2 {
+  content: inherit;
+  border: white;
+  border-width: 5px;
+  border-radius: 13%;
+  background-color: aqua;
+  grid-area: n2;
+}
+
+h2 {
+  font-size: 20px;
+  color: white;
+  font-family: "Beth Ellen", cursive;
+}
+
+.name {
+  color: aqua;
+  background-color: white;
+}
+.number {
+  color: aqua;
+  background-color: white;
+}
+.message {
+  color: aqua;
+  background-color: white;
+  height: 70px;
+}
+.submit {
+  background-color: white;
+  color: aqua;
+  border: 5px;
+  border-color: aqua;
+}
+
+.n3 {
+  text-align: center;
+  background-image: url(../contact/contactimgs/divbg.jpg);
+  background-repeat: none;
+  grid-area: n3;
+}
+
+.c3 {
+  font-size: 20px;
+  color: white;
+  font-family: "Beth Ellen", cursive;
+}
