@@ -5,7 +5,7 @@ main {
 }
 
 .odd {
-  margin-top: 20px;
+  top: 20px;
   margin: auto;
   height: 50px;
   width: 50px;
@@ -14,7 +14,7 @@ main {
 }
 
 .even {
-  margin-top: 20px;
+  top: 20px;
   margin: auto;
   height: 50px;
   width: 50px;
