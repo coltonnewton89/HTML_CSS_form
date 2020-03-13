@@ -1,5 +1,3 @@
-<script>
-function submit() {
-  location.myFunction("../src/nasa/nasa2.html")
+function alertFunction(){
+    alert("We will get back to you as soon as possible!")
 }
-</script>
